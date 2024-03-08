@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 4</title>
+  <style>
+    strong{
+      color:red;
+    }
+    a{
+      text-decoration: none;
+    }
+    a:visited {
+      color:black;
+      text-decoration: none;
+    }
+    a:visited {
+      color:black
+    }
+    a:hover{
+      font-weight: bold;
+      color:brown;
+    }
+  </style>
+</head>
+<body>
+    <h1>Table of Content</h1>
+    <ol>
+      <li><a href="#internet">Internet</a></li>
+      <li><a href="#layout">Layout</a></li>
+      <li><a href="#linear layout">Linear layout</a></li>
+      <li><a href="#pathname">Pathname</a></li>
+    </ol>
+    <hr>
+    <strong id="internet">Internet</strong>
+    <p>
+      The internet is a network of networks. That is computer networks are linked to other networks, spanning countries and today the globe.
+    </p>
+    <strong id="layout">Layout</strong>
+    <p>
+      A web page is not a printed page. That is, the guidelines that are applied to print may not apply to a web page.
+    </p>
+    <strong id="linear layout">Linear layout</strong>
+    <p>
+     This is content of linear layout. This is content of linear layout. This is content of linear layout. This is content of linear layout. This is content of linear layout. This is content of linear layout. This is content of linear layout. 
+    </p>
+
+</body>
+</html>
