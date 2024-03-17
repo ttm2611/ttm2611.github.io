@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ex03</title>
+</head>
+<body>
+    <input type="text" id="txta">
+    <input type="text" id="txtb">
+    <button onclick="tongab()">
+        Tính tổng
+    </button>
+</body>
+<script>
+    function tongab() {
+        var txta = document.getElementById('txta'). value;
+        var txtb = document.getElementById('txtb'). value;
+        if (txta == null || txta == "" || isNaN(txta)) {
+            alert('Vui lòng nhập số hợp lệ');
+            return;
+        }
+        if (txtb == null || txtb == "" || isNaN(txtb)) {
+            alert('Vui lòng nhập số hợp lệ');
+            return;
+        }
+        alert(parseInt(txta) + parseInt(txtb));
+    }
+</script>
+</html>
